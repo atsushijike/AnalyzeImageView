@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B37852520BD546300BE24FC /* cancun_pool_bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B37852420BD546300BE24FC /* cancun_pool_bar.png */; };
 		6BBC357520BD4604008C05C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBC357420BD4604008C05C8 /* AppDelegate.swift */; };
 		6BBC357720BD4604008C05C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBC357620BD4604008C05C8 /* ViewController.swift */; };
 		6BBC357A20BD4604008C05C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BBC357820BD4604008C05C8 /* Main.storyboard */; };
 		6BBC357C20BD4606008C05C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BBC357B20BD4606008C05C8 /* Assets.xcassets */; };
 		6BBC357F20BD4606008C05C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BBC357D20BD4606008C05C8 /* LaunchScreen.storyboard */; };
+		6BBC358820BD48F1008C05C8 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BBC358720BD48F1008C05C8 /* SnapKit.framework */; };
+		6BBC358B20BD4947008C05C8 /* AnalyzeImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBC358A20BD4947008C05C8 /* AnalyzeImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6B37852420BD546300BE24FC /* cancun_pool_bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cancun_pool_bar.png; sourceTree = SOURCE_ROOT; };
 		6BBC357120BD4604008C05C8 /* AnalyzeImageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnalyzeImageView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BBC357420BD4604008C05C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6BBC357620BD4604008C05C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,8 @@
 		6BBC357B20BD4606008C05C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6BBC357E20BD4606008C05C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6BBC358020BD4606008C05C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BBC358720BD48F1008C05C8 /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
+		6BBC358A20BD4947008C05C8 /* AnalyzeImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyzeImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BBC358820BD48F1008C05C8 /* SnapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +47,7 @@
 			children = (
 				6BBC357320BD4604008C05C8 /* AnalyzeImageView */,
 				6BBC357220BD4604008C05C8 /* Products */,
+				6BBC358620BD48F0008C05C8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +64,22 @@
 			children = (
 				6BBC357420BD4604008C05C8 /* AppDelegate.swift */,
 				6BBC357620BD4604008C05C8 /* ViewController.swift */,
+				6BBC358A20BD4947008C05C8 /* AnalyzeImageView.swift */,
 				6BBC357820BD4604008C05C8 /* Main.storyboard */,
 				6BBC357B20BD4606008C05C8 /* Assets.xcassets */,
 				6BBC357D20BD4606008C05C8 /* LaunchScreen.storyboard */,
 				6BBC358020BD4606008C05C8 /* Info.plist */,
+				6B37852420BD546300BE24FC /* cancun_pool_bar.png */,
 			);
 			path = AnalyzeImageView;
+			sourceTree = "<group>";
+		};
+		6BBC358620BD48F0008C05C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6BBC358720BD48F1008C05C8 /* SnapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +92,7 @@
 				6BBC356D20BD4604008C05C8 /* Sources */,
 				6BBC356E20BD4604008C05C8 /* Frameworks */,
 				6BBC356F20BD4604008C05C8 /* Resources */,
+				6BBC358920BD490E008C05C8 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -123,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6BBC357F20BD4606008C05C8 /* LaunchScreen.storyboard in Resources */,
+				6B37852520BD546300BE24FC /* cancun_pool_bar.png in Resources */,
 				6BBC357C20BD4606008C05C8 /* Assets.xcassets in Resources */,
 				6BBC357A20BD4604008C05C8 /* Main.storyboard in Resources */,
 			);
@@ -130,12 +150,30 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6BBC358920BD490E008C05C8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/SnapKit.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6BBC356D20BD4604008C05C8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				6BBC357720BD4604008C05C8 /* ViewController.swift in Sources */,
+				6BBC358B20BD4947008C05C8 /* AnalyzeImageView.swift in Sources */,
 				6BBC357520BD4604008C05C8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,6 +319,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = AnalyzeImageView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -298,6 +340,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = AnalyzeImageView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

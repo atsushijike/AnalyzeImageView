@@ -9,17 +9,19 @@
 import UIKit
 
 class ViewController: UIViewController {
+    let analyzeImageView = AnalyzeImageView()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        view.addSubview(analyzeImageView)
+        analyzeImageView.snp.makeConstraints { (make) in
+            make.center.size.equalToSuperview()
+        }
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        analyzeImageView.startEffect()
     }
-
-
 }
 
